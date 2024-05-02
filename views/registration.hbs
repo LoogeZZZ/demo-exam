@@ -1,0 +1,54 @@
+<form action="/registration" method="POST" id="registration">
+	<h3>Регистрация</h3>
+
+	<label for="full_name">ФИО</label>
+	<input
+		type="text"
+		placeholder="Ивано Иван Иванович"
+		name="full_name"
+		id="full_name"
+		required
+	/>
+
+	<label for="email">Почта</label>
+	<input
+		type="email"
+		placeholder="IvanovII@mail.ru"
+		name="email"
+		id="email"
+		required
+	/>
+
+	<label for="password">Пароль</label>
+	<input
+		type="password"
+		placeholder="Введите пароль"
+		name="password"
+		id="password"
+		required
+	/>
+
+	<label for="phone">Телефон</label>
+	<input
+		type="tel"
+		placeholder="91111111111"
+		min="11"
+		max="11"
+		name="phone"
+		id="phone"
+	/>
+
+	<label for="driver_license">Серия и номер водительского удостоверения</label>
+	<input
+		type="number"
+		placeholder="11 11 111111"
+		name="driver_license"
+		id="driver_license"
+		required
+	/>
+
+	<button type="submit">Зарегистрировать</button>
+
+	<a class="enter-btn" href="/">Войти</a>
+
+</form>
